@@ -1,0 +1,17 @@
+{
+  "name": "discogs-spreadsheet",
+  "version": "1.0.0",
+  "description": "read/write google sheets to query and return data from discogs api",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@googleapis/sheets": "^0.3.0",
+    "disconnect": "^1.2.2",
+    "dotenv": "^10.0.0",
+    "googleapis": "^73.0.0"
+  }
+}
